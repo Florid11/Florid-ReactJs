@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tabela</title>
+
+        <style>
+            body {
+                background-color: rgb(236, 235, 235);
+                font-weight: 400;
+            }
+            table {
+                width: 50%;
+                margin: 50px auto;
+            }
+
+            table caption {
+                font-size: 30px;
+                font-weight: bold;
+            }
+
+            table, th, td{
+                border: 1px solid black;
+            }
+
+            .descriptions {
+                text-align: left;
+                background-color: lightblue;
+                font-weight: bold;
+            }
+
+        </style>
+    </head>
+    <body>
+        <table cellpadding = "5" cellspacing = "0">
+            <caption>Te mbarohet nje Fature dhe ku shfaqet ne HTML.</caption>
+            <tr>
+                <td colspan="5" class="descriptions">Inovice #123456ABC</td>
+                <td colspan="2" class="descriptions">26 Sep 2021</td>
+            </tr>
+            <tr>
+                <td colspan="4" >
+                    <p><b>Pay To:</b></p>
+                    <p>The Tech Park</p>
+                    <p>123 Willow Street</p>
+                    <p>Boulevard. LA - 567892</p>
+                </td>
+                <td colspan="3">
+                    <p><b>Costumer</b></p>
+                    <p>John Lark</p>
+                    <p>Dummy Apartments</p>
+                    <p>276 Main Street</p>
+                    <p>Boulevard. LA - 567892</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="descriptions">Name/Description</td>
+                <td colspan="1" class="descriptions">Qty.</td>
+                <td colspan="1" class="descriptions">MRP</td>
+                <td colspan="2" class="descriptions">Amount</td>
+            </tr>
+            <tr>
+                <td colspan="3">Biryani</td>
+                <td colspan="1">3</td>
+                <td colspan="1">400</td>
+                <td colspan="2">1200</td>
+            </tr>
+            <tr>
+                <td colspan="3">Chocolate Shake</td>
+                <td colspan="1">3</td>
+                <td colspan="1">200</td>
+                <td colspan="2">600</td>
+            </tr>
+            <tr>
+                <td colspan="5" class="descriptions">Subtotal:</td>
+                <td colspan="2">1800</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="descriptions">Tax</td>
+                <td colspan="1">10%</td>
+                <td colspan="2">180</td>
+            </tr>
+            <tr>
+                <td colspan="5" class="descriptions">Grand Total:</td>
+                <td colspan="2">&euro; 1620</td>
+            </tr>
+        </table>
+    </body>
+</html>

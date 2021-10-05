@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User Form</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: lightskyblue;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 500;
+        }
+
+        #forma {
+            display: block;
+            width: 300px;
+            height: 500px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 10px;
+        }
+
+        #forma div{
+            display: inline-block;
+            margin-left: 15px;
+            margin-top: 50px;
+        }
+
+
+        .btn {
+            display: inline-block;
+            width: 60px;
+            height: 30px;
+            border-radius: 5px;
+
+        }
+
+        .btn:hover,
+        .btn:active {
+            background-color: lightskyblue;
+            width: 57px;
+            height: 28px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Regjistrohu!</h1>
+    <form method="GET" id="forma">
+        <div>
+            <input type="text" name="emri-mbiemri" required placeholder="Emri dhe Mbiemri...">
+        </div>
+        <div>
+            <input type="email" name="email" required placeholder="Emaili...">
+        </div>
+        <div>
+            <input type="password" name="password" required minlength="6" maxlength="12" placeholder="Fjalkalimi...">
+        </div>
+        <div>
+            <input type="date" name="date" required max="01-01-2003" placeholder="Data e Lindjes">
+        </div>
+        <div>
+            <input type="file" name="file" required multiple >
+        </div>
+        <div>
+            <input type="submit" value="Dergo" class="btn">
+            <input type="reset" value="Pastro" class="btn">
+        </div>
+    </form>
+    
+</body>
+</html>

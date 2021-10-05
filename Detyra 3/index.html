@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Web Blog</title>
+</head>
+<body>
+<!-- Kemi bere Headerin bashk me navigimet -->
+    <header id="header">
+        <nav class="main-nav">
+            <div class="nav">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#bio">Biography</a></li>
+                    <li><a href="#photos">Photos</a></li>
+                    <li><a href="#contact-form">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+<!-- Ktu eshte pjesa tekstuale te navigimet -->
+        <div class="second-nav">
+            <p>Everything starts with an</p>
+            <h1>ADVENTURE...</h1>
+<!-- Ketu eshte buttoni qe do riperdoret -->
+            <a href="#bio" class="button">Let's Go</a>
+        </div>
+    </header>
+
+    <section id="bio">
+        <div class="bio-bord">
+            <h1 class="title">Biography</h1>
+            <img src="Red_Bull.jpg" alt="Red_Bull">
+            <div class="bio-head">
+                <h3 >Red Bull GmbH is an Austrian private company known for its range of energy drinks. It is also known for its sponsorship of a range of sporting events and teams. In 2019, 7.5 billion cans of Red Bull were sold worldwide in over 171 countries. The headquarters of Red Bull GmbH are located in Fuschl am See, Austria. Red Bull was originally founded in Thailand and was then called Krating Daeng back in 1976.</h3>
+            </div>
+            <div class="bio-p">
+                <p>Austrian entrepreneur Dietrich Mateschitz and Thai businessman Chaleo Yoovidhya founded Red Bull GmbH in 1984. While working for German manufacturer Blendax (later acquired by Procter & Gamble) in 1982, Mateschitz traveled to Thailand and met Chaleo, owner of TC Pharmaceutical. He found that the energy drink Krating Daeng, developed by Chaleo's company during the 1970s, helped to ease his jet lag. After seeing market potential in the drink, he partnered with Chaleo in bringing it to Europe. Under their agreement, the partners invested $500,000 each into founding Red Bull GmbH. In return, they would each receive a 49% stake in the company, with the remaining 2% stake going to Chaleo's son Chalerm. They also agreed that Mateschitz would run the company. Between 1984 and 1987, Red Bull GmbH modified the formula for Krating Daeng to better match European tastes by carbonating the beverage and making it less sweet. In 1987, the company introduced their adapted energy drink into Austria under the name Red Bull. It found huge success there by marketing to young professionals. The brand expanded throughout Europe during the early 1990s, exploding into the United States market during 1997, grabbing 75% of the market within a year. The wealth of Red Bull's founders grew with the company's success, and by March 2012, both Chaleo and Mateschitz had estimated net worths of over $5.3 billion each. Expanding its distribution to over 171 countries, the company sold 5.2 billion cans of Red Bull in 2012, making it the world's most-consumed energy drink.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="photos">
+        <div id="info-contain">
+            <div class="info">
+                <blockquote>
+                    When launching a product called an Energy Drink and named Red Bull, a product that stimulates body and mind, it is a short step to the roots where Red Bull came from. We have been doing this for 20 years - now it's called adventure sports, extreme sports, and outdoor sports.
+                    <cite><img src="2.jpg" alt="dietrich mateschitz">Dietrich Mateschitz</cite>
+                </blockquote>
+            </div>
+            <div class="info">
+                <blockquote>
+                    Since I got to F1, and especially since I got to Red Bull Racing, I said, 'I don't want to have any regrets. I've got a chance now in a top team. I want to leave it all on the table.
+                    <cite><img src="3.jpg" alt="daniel ricciardo">Daniel Ricciardo</cite>
+                </blockquote>
+            </div>
+            
+        </div>
+        <div id="slide-contain">
+                <span id="slide-img1"></span>
+                <span id="slide-img2"></span>
+                <span id="slide-img3"></span>
+                <span id="slide-img4"></span>
+                <span id="slide-img5"></span>
+                <span id="slide-img6"></span>
+                <span id="slide-img7"></span>
+                <span id="slide-img8"></span>
+                <span id="slide-img9"></span>
+                <div class="img-con">
+                    <img src="Untitled design9.png" class="slide-img">
+                    <img src="Untitled design3.png" class="slide-img">
+                    <img src="Untitled design6.png" class="slide-img">
+                    <img src="Untitled design7.png" class="slide-img">
+                    <img src="Untitled design2.png" class="slide-img">
+                    <img src="Untitled design4.png" class="slide-img">
+                    <img src="Untitled design8.png" class="slide-img">
+                    <img src="Untitled design.png" class="slide-img">
+                    <img src="Untitled design5.png" class="slide-img">
+                </div>
+                <div class="btn-con">
+                    <a href="#slide-img1" class="slide-btn"></a>
+                    <a href="#slide-img2" class="slide-btn"></a>
+                    <a href="#slide-img3" class="slide-btn"></a>
+                    <a href="#slide-img4" class="slide-btn"></a>
+                    <a href="#slide-img5" class="slide-btn"></a>
+                    <a href="#slide-img6" class="slide-btn"></a>
+                    <a href="#slide-img7" class="slide-btn"></a>
+                    <a href="#slide-img8" class="slide-btn"></a>
+                    <a href="#slide-img9" class="slide-btn"></a>
+                </div>
+        </div>
+        
+    </section>
+
+    <section id="contact">
+        <form action="GET" id="contact-form">
+            <div class="contact-img">
+                <img src="Man.png" alt="man-before-laptop">
+            </div>
+            <div class="contact-info">
+                <h1 class="title">Contact Us</h1>
+                <div class="form">
+                    <input type="text" placeholder="Full Name..." name="fullname">
+                    <input type="email" placeholder="Email..." name="email">
+                </div>
+                <div class="form">
+                    <input type="text" placeholder="Subject..." name="subject">
+                </div>
+                <div class="form">
+                    <textarea name="textarea" id="text-area" cols="70" rows="10"></textarea>
+                </div>
+                <div class="btn ">
+                    <input type="submit" value="Submit" >
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <footer id="footer">
+        <div class="about">
+            <ul>
+                <a href="#bio"><li>About us</li></a>
+                <a href="#"><li>Blog</li></a>
+                <a href="#"><li>Ios App</li></a>
+                <a href="#"><li>Android App</li></a>
+                <a href="#"><li>Terms &Conditions</li></a>
+            </ul>
+        </div>
+        <div class="icons">
+            <a href="https://www.facebook.com/RedBull/" title="Facebook" target="_blank"><img src="facebook.png" alt="Facebook site"></a>
+            <a href="https://twitter.com/redbullracing?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" title="Twitter" target="_blank"><img src="5296516_tweet_twitter_twitter logo_icon.png" alt="Twitter site"></a>
+            <a href="https://www.instagram.com/redbull/" title="Instagram" target="_blank"><img src="5296765_camera_instagram_instagram logo_icon.png" alt="Instagram site"></a>
+            <a href="https://www.tiktok.com/@redbull?lang=en" title="tiktok" target="_blank"><img src="7564186_tiktok_logo_brand_icon.png" alt="tiktok site"></a>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2021 by Red Bull. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

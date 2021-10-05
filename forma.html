@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: 'Courier New', Courier, monospace;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../istockphoto-1206219776-612x612.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            background-attachment: fixed;
+        }
+
+        #forma {
+            display: block;
+            width: 300px;
+            height: 600px;
+            background-color: lightgrey;
+            margin: auto;
+            text-align: leftr;
+            border-radius: 10px;
+            margin-top: 25px;
+        }
+
+        .inside-forms {
+            display: inline-block;
+            margin-top: 15px;
+            margin-left: 75px;
+        }
+
+        .inside-forms textarea{
+            resize: none;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="GET" id="forma">
+        <div class="inside-forms">
+            <label for="Emri">Emri:</label>
+            <input type="text" name="Emri" placeholder="Emri...">
+        </div>
+        <div class="inside-forms">
+            <label for="mbiemri">Mbiemri:</label>
+            <input type="text" name="mbiemri" placeholder="Mbiemri...">
+        </div>
+        <div class="inside-forms">
+            <label for="email">Emaili:</label>
+            <input type="email" name="email" placeholder="Emaili...">
+        </div>
+        <div class="inside-forms">
+            <label for="fjalkalimi">Fjalkalimi:</label>
+            <input type="password" name="fjalkalimi" placeholder="Fjalkalimi...">
+        </div>
+        <div class="inside-forms">
+            <p>Gjinia:</p>
+            <input type="radio" name="male" value="M">
+            Mashkull
+            <input type="radio" name="female" value="F">
+            Femer
+        </div>
+        <div class="inside-forms">
+            <p>Pyetja Sekrete</p>
+            <select name="securityQuestion" >
+                <option value="first-pet">Kafsha Shtepiake e Preferuar</option>
+                <option value="nickname">Nofka e Preferuar</option>
+                <option value="favorite-book">Libri i Preferuar</option>
+            </select>
+        </div>
+        <div class="inside-forms">
+            <label for="komenti"></label>
+            <textarea name="answer" cols="25" rows="5"></textarea>
+        </div>
+        <div class="inside-forms">
+            <input type="checkbox" name="terms-and-conditions">
+            Terms & Conditions
+        </div>
+        <div class="inside-forms">
+            <input type="submit" value="Regjistrohu">
+        </div>
+    </form>
+</body>
+</html>
